@@ -11,10 +11,10 @@ environment {
     stages {
 	stage ('Git Checkout') {
   steps {
-      git branch: 'main', url: 'https://<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>@github.com/adityanaidu20690/tweet-trend.git'
+      git 'https://github.com/adityanaidu20690/addy_devops_project.git'
      }
   }
-        stage('git clone') {
+        stage('maven') {
             steps {
                 sh 'mvn clean deploy'
             }
