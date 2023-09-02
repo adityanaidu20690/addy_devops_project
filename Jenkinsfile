@@ -20,7 +20,7 @@ environment {
             }
         }
 
-        stage('SonarQube analysis') {
+        stage('SonarQube') {
             environment {
     
     scannerHome = tool 'sonartest'
