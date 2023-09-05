@@ -1,6 +1,6 @@
 def registry = 'https://sonartest.jfrog.io'
 def imageName = 'sonartest.jfrog.io/addydock-docker-local/ttrend'
-   def version   = '2.1.4' 
+   def version   = '2.1.5' 
 pipeline {
     agent {
         node {
